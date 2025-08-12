@@ -12,7 +12,7 @@ export async function GET() {
       driverLogin: v.driverLogin,
       latitude: v.position.latitude,
       longitude: v.position.longitude,
-      postionLastUpdated: v.positionLastUpdate,
+      positionLastUpdate: v.positionLastUpdate,
     }));
 
     return NextResponse.json(vehicles);

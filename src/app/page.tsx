@@ -11,7 +11,7 @@ export interface Vehicle {
   driverLogin: string;
   latitude: number;
   longitude: number;
-  positionLastUpdated?: string;
+  positionLastUpdate?: string;
 }
 
 export default function Home() {
